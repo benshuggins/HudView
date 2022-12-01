@@ -26,7 +26,8 @@ class DetailViewController: UIViewController {
         
         let delaySeconds = 0.6
         DispatchQueue.main.asyncAfter(deadline: .now() + delaySeconds, execute: {
-            self.navigationController?.popViewController(animated: true)
+            hudView.hide()
+            self.navigationController?.popViewController(animated: false)
         })
     }
 
