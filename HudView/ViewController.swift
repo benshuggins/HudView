@@ -11,9 +11,19 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        navigationController?.navigationBar.backgroundColor = .blue
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(didTap))
+        
     }
-
+    @objc func didTap() {
+        
+    let detailView = DetailViewController()
+    let navVC = UINavigationController(rootViewController: detailView)
+       // showDetailViewController(navVC, sender: self)
+        show(detailView, sender: self)
+    }
 
 }
 

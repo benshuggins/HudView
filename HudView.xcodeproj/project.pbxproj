@@ -13,6 +13,8 @@
 		F5DA54DA293929180046E058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DA54D8293929180046E058 /* Main.storyboard */; };
 		F5DA54DC2939291A0046E058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5DA54DB2939291A0046E058 /* Assets.xcassets */; };
 		F5DA54DF2939291A0046E058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DA54DD2939291A0046E058 /* LaunchScreen.storyboard */; };
+		F5DA54E7293929BB0046E058 /* HudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DA54E6293929BB0046E058 /* HudView.swift */; };
+		F5DA54E92939462D0046E058 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DA54E82939462D0046E058 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F5DA54DB2939291A0046E058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5DA54DE2939291A0046E058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5DA54E02939291A0046E058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5DA54E6293929BB0046E058 /* HudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HudView.swift; sourceTree = "<group>"; };
+		F5DA54E82939462D0046E058 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				F5DA54D2293929180046E058 /* AppDelegate.swift */,
 				F5DA54D4293929180046E058 /* SceneDelegate.swift */,
 				F5DA54D6293929180046E058 /* ViewController.swift */,
+				F5DA54E82939462D0046E058 /* DetailViewController.swift */,
+				F5DA54E6293929BB0046E058 /* HudView.swift */,
 				F5DA54D8293929180046E058 /* Main.storyboard */,
 				F5DA54DB2939291A0046E058 /* Assets.xcassets */,
 				F5DA54DD2939291A0046E058 /* LaunchScreen.storyboard */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5DA54E7293929BB0046E058 /* HudView.swift in Sources */,
 				F5DA54D7293929180046E058 /* ViewController.swift in Sources */,
+				F5DA54E92939462D0046E058 /* DetailViewController.swift in Sources */,
 				F5DA54D3293929180046E058 /* AppDelegate.swift in Sources */,
 				F5DA54D5293929180046E058 /* SceneDelegate.swift in Sources */,
 			);
