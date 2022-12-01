@@ -24,11 +24,25 @@ class DetailViewController: UIViewController {
      // let hudView = HudView.hud(inView: view, aninated: true)
         hudView.text = "Gym Added"
         
-        let delaySeconds = 0.6
-        DispatchQueue.main.asyncAfter(deadline: .now() + delaySeconds, execute: {
+        
+        
+        afterDelay(0.6) {
             hudView.hide()
             self.navigationController?.popViewController(animated: false)
-        })
+        }
+        
+        //this is now using a closure that is called in Function.swift
+//        afterDelay(0.6, run: {
+//            hudView.hide()
+//            self.navigationController?.popViewController(animated: false)
+//        })
+        
+        // this was used before moving function to Functions.swift
+//        let delaySeconds = 0.6
+//        DispatchQueue.main.asyncAfter(deadline: .now() + delaySeconds, execute: {
+//            hudView.hide()
+//            self.navigationController?.popViewController(animated: false)
+//        })
     }
 
 
